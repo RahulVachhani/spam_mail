@@ -27,7 +27,7 @@ def main():
 
     diagnosis = ''
 
-    if st.button('Diabetes Test Result'):
+    if st.button('Check'):
         diagnosis = diabetes_prediction([message])
 
     st.success(diagnosis)
